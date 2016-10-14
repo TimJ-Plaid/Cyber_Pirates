@@ -1,0 +1,738 @@
+﻿Log file open, 10/12/16 15:26:04
+LogInit:Display: Running engine for game: Cyber_Pirates_001
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1444930881) SRandInit(1444930881).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.126846
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3106830
+LogInit: Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3106830
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Aug 30 2016 18:11:39
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.12-22.26.04:604][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.12-22.26.04:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.12-22.26.04:979][  0]LogInit: Computer: AI301LAB0264P05
+[2016.10.12-22.26.04:979][  0]LogInit: User: aicaoc
+[2016.10.12-22.26.04:980][  0]LogInit: CPU Page size=65536, Cores=8
+[2016.10.12-22.26.04:980][  0]LogInit: High frequency timer resolution =2.208037 MHz
+[2016.10.12-22.26.04:980][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2016.10.12-22.26.04:980][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.12-22.26.04:980][  0]LogMemory: Process Physical Memory: 260.83 MB used, 260.83 MB peak
+[2016.10.12-22.26.04:980][  0]LogMemory: Process Virtual Memory: 261.21 MB used, 261.21 MB peak
+[2016.10.12-22.26.04:980][  0]LogMemory: Physical Memory: 6045.04 MB used, 16367.22 MB total
+[2016.10.12-22.26.04:980][  0]LogMemory: Virtual Memory: 592.68 MB used, 8388608.00 MB total
+[2016.10.12-22.26.05:129][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.12-22.26.06:609][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.12-22.26.06:652][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 285' (Feature Level 10_0)
+[2016.10.12-22.26.06:652][  0]LogD3D11RHI:       997/0/3071 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.10.12-22.26.06:652][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.12-22.26.06:659][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.12-22.26.06:660][  0]LogD3D11RHI:     GPU DeviceId: 0x5e3 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.12-22.26.06:660][  0]LogWindows: EnumDisplayDevices:
+[2016.10.12-22.26.06:660][  0]LogWindows:    0. 'NVIDIA GeForce GTX 285' (P:1 D:1)
+[2016.10.12-22.26.06:660][  0]LogWindows:    1. 'NVIDIA GeForce GTX 285' (P:0 D:0)
+[2016.10.12-22.26.06:660][  0]LogWindows:    2. 'RDPDD Chained DD' (P:0 D:0)
+[2016.10.12-22.26.06:660][  0]LogWindows:    3. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2016.10.12-22.26.06:661][  0]LogWindows:    4. 'RDP Reflector Display Driver' (P:0 D:0)
+[2016.10.12-22.26.06:661][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:2 
+[2016.10.12-22.26.06:661][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 285
+[2016.10.12-22.26.06:661][  0]LogD3D11RHI:   Driver Version: 341.95 (internal:9.18.13.4195, unified:341.95)
+[2016.10.12-22.26.06:661][  0]LogD3D11RHI:      Driver Date: 1-29-2016
+[2016.10.12-22.26.06:661][  0]LogRHI: Texture pool is 698 MB (70% of 997 MB)
+[2016.10.12-22.26.06:672][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.12-22.26.06:721][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 3)
+[2016.10.12-22.26.20:265][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Intermediate/Shaders/WorkingDirectory/9804/).
+[2016.10.12-22.26.20:265][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/aicaoc/AppData/Local/Temp/UnrealShaderWorkingDir/D296666F4F97BEBCE361F0915542BB65/'.
+[2016.10.12-22.26.20:266][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.12-22.26.22:787][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.12-22.26.22:807][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.12-22.26.22:826][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.12-22.26.22:847][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.12-22.26.22:867][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.12-22.26.22:886][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.12-22.26.22:906][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.12-22.26.22:921][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.12-22.26.22:938][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.12-22.26.22:955][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.12-22.26.22:972][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.12-22.26.23:006][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.12-22.26.23:006][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.12-22.26.23:008][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.12-22.26.23:048][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.12-22.26.23:063][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.12-22.26.23:079][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.12-22.26.23:096][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.12-22.26.23:112][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.12-22.26.23:127][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.12-22.26.23:127][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.12-22.26.23:298][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache: Loaded boot cache 0.26s 57MB C:/Users/aicaoc/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/aicaoc/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.12-22.26.23:561][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.12-22.26.23:615][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.12-22.26.23:628][  0]LogDerivedDataCache: Using Local data cache path C:/Users/aicaoc/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.12-22.26.24:788][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.12-22.26.24:803][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.12-22.26.24:808][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.12-22.26.25:284][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.12-22.26.25:284][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.12-22.26.25:284][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.12-22.26.25:591][  0]LogLinker:Warning: Can't find file '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1'
+[2016.10.12-22.26.25:591][  0]LogLinker: Can't find file '/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1'
+[2016.10.12-22.26.25:596][  0]LogTexture:Display: Building textures: RGBTable16x1_AssetViewer (BGRA8)
+[2016.10.12-22.26.26:437][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cyber_pirates_001, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1354488230
+[2016.10.12-22.26.26:499][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
+[2016.10.12-22.26.28:084][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.576233 seconds
+[2016.10.12-22.26.28:093][  0]LogUObjectArray: 29781 objects as part of root set at end of initial load.
+[2016.10.12-22.26.28:094][  0]LogUObjectAllocator: 6126240 out of 0 bytes used by permanent object pool.
+[2016.10.12-22.26.28:094][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.12-22.26.28:113][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.12-22.26.28:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.12-22.26.28:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.12-22.26.30:485][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2016.10.12-22.26.30:533][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.12-22.26.31:613][  0]SourceControl: Info Source control is disabled
+[2016.10.12-22.26.31:824][  0]SourceControl: Info Source control is disabled
+[2016.10.12-22.26.31:851][  0]SourceControl: Info Source control is disabled
+[2016.10.12-22.26.31:871][  0]SourceControl: Info Source control is disabled
+[2016.10.12-22.26.32:886][  0]LogEngine: Initializing Engine...
+[2016.10.12-22.26.32:887][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.12-22.26.33:208][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.12-22.26.33:248][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.10.12-22.26.33:315][  0]LogInit: FAudioDevice initialized.
+[2016.10.12-22.26.33:398][  0]LogDerivedDataCache: Saved boot cache 0.08s 57MB C:/Users/aicaoc/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.12-22.26.33:418][  0]LogInit: Texture streaming: Enabled
+[2016.10.12-22.26.33:491][  0]LogInit: Transaction tracking system initialized
+[2016.10.12-22.26.33:577][  0]BlueprintLog: New page: Editor Load
+[2016.10.12-22.26.34:142][  0]LocalizationService: Info Localization service is disabled
+[2016.10.12-22.26.34:368][  0]LogConsoleResponse:Display: 
+[2016.10.12-22.26.34:709][  0]LogFileCache: Scanning file cache for directory 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' took 0.01s
+[2016.10.12-22.26.34:709][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.12-22.26.34:710][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.12-22.26.35:093][  0]SourceControl: Info Source control is disabled
+[2016.10.12-22.26.35:094][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.10.12-22.26.35:096][  0]LightingResults: New page: Lighting Build
+[2016.10.12-22.26.35:114][  0]MapCheck: New page: Map Check
+[2016.10.12-22.26.35:114][  0]LightingResults: New page: Lighting Build
+[2016.10.12-22.26.35:772][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.12-22.26.35:818][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.12-22.26.35:832][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.12-22.26.35:913][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.3ms to complete.
+[2016.10.12-22.26.35:913][  0]LogFileHelpers: Loading map 'Template_Default' took 0.820
+[2016.10.12-22.26.36:300][  0]LogCollectionManager: Loaded 0 collections in 0.002383 seconds
+[2016.10.12-22.26.36:380][  0]LogFileCache: Scanning file cache for directory 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' took 0.01s
+[2016.10.12-22.26.36:380][  0]LogFileCache: Scanning file cache for directory 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/aicaoc/Collections/' took 0.01s
+[2016.10.12-22.26.36:380][  0]LogFileCache: Scanning file cache for directory 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' took 0.01s
+[2016.10.12-22.26.36:380][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.10.12-22.26.36:405][  0]LogContentBrowser: Native class hierarchy populated in 0.0223 seconds. Added 2156 classes and 421 folders.
+[2016.10.12-22.26.36:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.12-22.26.36:424][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.12-22.26.36:426][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0010 seconds. Added 12 classes and 0 folders.
+[2016.10.12-22.26.36:434][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2016.10.12-22.26.36:911][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.10.12-22.26.36:934][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.10.12-22.26.37:040][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.12-22.26.37:082][  0]LogTexture:Display: Building textures: Blueprint_64x (BGRA8)
+[2016.10.12-22.26.37:084][  0]LogTexture:Display: Building textures: icon_Editor_Preferences_General_40x (BGRA8)
+[2016.10.12-22.26.37:086][  0]LogTexture:Display: Building textures: Paper2DSprite_TutorialIcon (BGRA8)
+[2016.10.12-22.26.37:089][  0]LogTexture:Display: Building textures: icon_ShowSkeletalMeshes_40x (BGRA8)
+[2016.10.12-22.26.37:090][  0]LogTexture:Display: Building textures: Landscape (BGRA8)
+[2016.10.12-22.26.37:093][  0]LogTexture:Display: Building textures: Foliage (BGRA8)
+[2016.10.12-22.26.37:139][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2016.10.12-22.26.37:139][  0]LogLoad: (Engine Initialization) Total time: 36.52 seconds
+[2016.10.12-22.26.37:139][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2016.10.12-22.26.37:139][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.12-22.26.37:139][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.12-22.26.37:479][  0]LogOcInput: OculusInput pre-init called
+[2016.10.12-22.26.37:534][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.12-22.26.37:586][  0]LogTexture:Display: Building textures: icon_tab_Levels_40x (BGRA8)
+[2016.10.12-22.26.37:705][  0]LogTexture:Display: Building textures: LevelGrid1DStripes (BGRA8)
+[2016.10.12-22.26.37:849][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.12-22.26.38:836][  3]LogAssetRegistry: Asset discovery search completed in 12.3593 seconds
+[2016.10.12-22.26.38:836][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.12-22.26.38:836][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2016.10.12-22.26.46:384][232]LogStaticMesh: Building static mesh SM_B_Large...
+[2016.10.12-22.26.46:396][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_B_Large.SM_B_Large
+[2016.10.12-22.26.46:398][232]LogStaticMesh: Building static mesh SM_B_Medium...
+[2016.10.12-22.26.46:404][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_B_Medium.SM_B_Medium
+[2016.10.12-22.26.46:404][232]LogStaticMesh: Building static mesh SM_B_Small...
+[2016.10.12-22.26.46:410][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_B_Small.SM_B_Small
+[2016.10.12-22.26.46:410][232]LogStaticMesh: Building static mesh SM_B_Tower...
+[2016.10.12-22.26.46:416][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_B_Tower.SM_B_Tower
+[2016.10.12-22.26.46:416][232]LogStaticMesh: Building static mesh SM_Bridge_001...
+[2016.10.12-22.26.46:421][232]LogStaticMesh: Built static mesh [0.00s] /Game/Blocking_Kit/SM_Bridge_001.SM_Bridge_001
+[2016.10.12-22.26.46:421][232]LogStaticMesh: Building static mesh SM_Path_001...
+[2016.10.12-22.26.46:428][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_Path_001.SM_Path_001
+[2016.10.12-22.26.46:428][232]LogStaticMesh: Building static mesh SM_Path_002...
+[2016.10.12-22.26.46:443][232]LogStaticMesh: Built static mesh [0.02s] /Game/Blocking_Kit/SM_Path_002.SM_Path_002
+[2016.10.12-22.26.46:443][232]LogStaticMesh: Building static mesh SM_Path_003...
+[2016.10.12-22.26.46:449][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_Path_003.SM_Path_003
+[2016.10.12-22.26.46:450][232]LogStaticMesh: Building static mesh SM_Path_004...
+[2016.10.12-22.26.46:462][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_Path_004.SM_Path_004
+[2016.10.12-22.26.46:462][232]LogStaticMesh: Building static mesh SM_Path_005...
+[2016.10.12-22.26.46:471][232]LogStaticMesh: Built static mesh [0.01s] /Game/Blocking_Kit/SM_Path_005.SM_Path_005
+[2016.10.12-22.26.46:489][232]LogMaterial: Missing cached shader map for material M_Tower, compiling. 
+[2016.10.12-22.26.46:531][232]LogAIModule: Creating AISystem for world Cyber_Pirates
+[2016.10.12-22.26.46:582][232]Cmd: MAP LOAD FILE="E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/Cyber_Pirates.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
+[2016.10.12-22.26.46:582][232]LightingResults: New page: Lighting Build
+[2016.10.12-22.26.46:583][232]LoadErrors: New page: Loading map: Cyber_Pirates.umap
+[2016.10.12-22.26.46:585][232]MapCheck: New page: Map Check
+[2016.10.12-22.26.46:585][232]LightingResults: New page: Lighting Build
+[2016.10.12-22.26.46:648][232]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.12-22.26.46:863][232]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.12-22.26.46:989][232]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 125.593ms to complete.
+[2016.10.12-22.26.46:989][232]LogFileHelpers: Loading map 'Cyber_Pirates' took 0.409
+[2016.10.12-22.27.49:087][138]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.27.50:591][175]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.27.50:777][175]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.27.50:788][175]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.27.50:817][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.27.52:442][178]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.27.52:442][178]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.27.52:442][178]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.01:377][404]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.01:394][404]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.01:420][404]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.01:774][414]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.01:774][414]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.01:774][414]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.02:952][467]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.02:963][467]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.02:994][467]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.03:345][476]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.03:345][476]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.03:345][476]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.06:573][636]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.06:585][636]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.06:611][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.06:959][646]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.06:959][646]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.06:959][646]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.07:794][676]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.07:809][676]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.07:834][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.08:179][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.08:179][687]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.08:179][687]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.08:861][713]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.08:875][713]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.08:900][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.09:258][722]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.09:258][722]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.09:258][722]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.12:264][855]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.12:275][855]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.12:304][855]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.12:778][872]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.12:789][872]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.12:817][872]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.13:152][882]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.13:152][882]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.13:152][882]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.14:703][953]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.14:715][953]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.14:744][953]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.15:108][964]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.15:108][964]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.15:108][964]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.18:364][111]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.18:377][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.18:405][111]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.18:751][119]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.18:751][119]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.18:751][119]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.21:009][209]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.21:023][209]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.21:048][209]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.21:434][220]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.21:434][220]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.21:435][220]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.24:133][344]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.24:145][344]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.24:175][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.24:502][353]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.24:502][353]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.24:502][353]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.26:210][419]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.26:223][419]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.26:255][419]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.28.26:603][429]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.28.26:603][429]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.26:603][429]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.28.29:360][536]LogMaterialEditor: Saving and Compiling material M_Path
+[2016.10.12-22.28.30:289][536]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.30:312][536]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.30:388][536]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.30:409][536]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.12-22.28.30:432][536]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.28.32:469][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blocking_Kit/M_Path" FILE="E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/M_Path.uasset" SILENT=true
+[2016.10.12-22.28.32:791][536]LogSavePackage: Save=259.96ms
+[2016.10.12-22.28.32:792][536]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/M_Path5707360E4A7F2055427764858EBE00FF.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/M_Path.uasset'
+[2016.10.12-22.28.35:757][536]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/M_Path.uasset
+[2016.10.12-22.28.35:818][536]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.10.12-22.28.35:818][536]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.28.35:818][536]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.12-22.28.41:914][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_42)
+[2016.10.12-22.28.42:915][735]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Path_42)
+[2016.10.12-22.28.51:205][133]Cmd: ACTOR SELECT ALL
+[2016.10.12-22.28.53:362][235]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.10.12-22.28.53:789][251]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_42)
+[2016.10.12-22.28.54:062][259]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Path_42)
+[2016.10.12-22.29.01:120][587]Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[2016.10.12-22.29.05:530][765]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Path_43)
+[2016.10.12-22.29.07:662][866]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Path_43)
+[2016.10.12-22.29.13:554][148]Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[2016.10.12-22.29.19:942][447]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Path_51)
+[2016.10.12-22.29.20:868][489]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Path_51)
+[2016.10.12-22.29.23:870][631]Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[2016.10.12-22.29.25:794][707]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_Bridge_9)
+[2016.10.12-22.29.26:894][756]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Bridge_9)
+[2016.10.12-22.29.29:812][885]Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[2016.10.12-22.29.45:275][585]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Path_23)
+[2016.10.12-22.30.08:406][727]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.10.12-22.30.09:440][755]LogTexture:Display: Building textures: SunsetAmbientCubemap (RGBA16F)
+[2016.10.12-22.30.17:486][755]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2016.10.12-22.30.27:285][  4]LogSavePackage: Save=249.91ms
+[2016.10.12-22.30.27:286][  4]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Bridge_001011A1EE84F6A071C9A2D67B08C2CE69D.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Bridge_001.uasset'
+[2016.10.12-22.30.27:621][  4]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Bridge_001.uasset
+[2016.10.12-22.30.36:984][166]LogSavePackage: Save=203.92ms
+[2016.10.12-22.30.36:985][166]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Path_0018412C2FD402A6D80F14383B2C0BDD91E.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_001.uasset'
+[2016.10.12-22.30.37:107][166]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_001.uasset
+[2016.10.12-22.30.54:708][652]LogSavePackage: Save=94.50ms
+[2016.10.12-22.30.54:708][652]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Path_002D536C0734A3C0F9C890D38B6FDFD791A.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_002.uasset'
+[2016.10.12-22.30.54:804][652]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_002.uasset
+[2016.10.12-22.31.01:736][795]LogSavePackage: Save=43.81ms
+[2016.10.12-22.31.01:736][795]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Path_003FF326C944E2ED1C48EF256820DA117C5.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_003.uasset'
+[2016.10.12-22.31.01:962][795]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_003.uasset
+[2016.10.12-22.31.08:771][899]LogSavePackage: Save=226.82ms
+[2016.10.12-22.31.08:773][899]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Path_00409571F3C4D02B36CEA31FBBC497C993B.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_004.uasset'
+[2016.10.12-22.31.08:802][899]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_004.uasset
+[2016.10.12-22.31.14:834][  3]LogSavePackage: Save=71.44ms
+[2016.10.12-22.31.14:836][  3]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Path_005568C3C074E7CE9D3D41371A2A92086E4.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_005.uasset'
+[2016.10.12-22.31.15:018][  3]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Path_005.uasset
+[2016.10.12-22.31.32:046][398]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.33:944][431]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.34:334][431]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.34:347][431]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.31.34:375][431]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.31.36:743][434]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.31.36:743][434]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.31.36:743][434]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.31.46:399][563]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.46:411][563]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.31.46:441][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.10.12-22.31.46:857][574]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.10.12-22.31.46:857][574]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.31.46:857][574]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.10.12-22.31.49:490][649]LogMaterialEditor: Saving and Compiling material M_Bridge
+[2016.10.12-22.31.50:382][649]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.50:408][649]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.31.50:470][649]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.50:491][649]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.12-22.31.50:508][649]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.10.12-22.31.53:410][649]LogSavePackage: Save=301.36ms
+[2016.10.12-22.31.55:039][649]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/M_Bridge19CD1F0E4A471D0FAF8A49AB293928A2.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/M_Bridge.uasset'
+[2016.10.12-22.31.57:233][649]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/M_Bridge.uasset
+[2016.10.12-22.31.57:239][649]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 57 instructions
+[2016.10.12-22.31.57:239][649]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2016.10.12-22.31.57:239][649]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.10.12-22.32.03:593][756]LogSavePackage: Save=240.15ms
+[2016.10.12-22.32.03:595][756]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/SM_Bridge_001382269564D110674365AA0AE3EC3CA7A.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Bridge_001.uasset'
+[2016.10.12-22.32.03:671][756]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Blocking_Kit/SM_Bridge_001.uasset
+[2016.10.12-22.32.14:041][153]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2016.10.12-22.32.40:855][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_B_Large10)
+[2016.10.12-22.32.41:471][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_B_Small13)
+[2016.10.12-22.32.42:017][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_B_Small14)
+[2016.10.12-22.33.25:163][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_B_Tower14)
+[2016.10.12-22.36.47:773][316]LogSavePackage: Save=1981.14ms
+[2016.10.12-22.36.47:773][316]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Cyber_Pirates_Auto18FA890E44BB7A00A62F367B04234A3A0.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/Cyber_Pirates_Auto1.umap'
+[2016.10.12-22.36.47:776][316]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/Cyber_Pirates_Auto1.umap
+[2016.10.12-22.36.47:783][316]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/Cyber_Pirates' took 2.433
+[2016.10.12-22.36.47:783][316]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.433
+[2016.10.12-22.55.01:120][669]LogSavePackage: Save=167.95ms
+[2016.10.12-22.55.01:121][669]LogSavePackage: Moving 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Cyber_Pirates7777633C4965D5B1AD83D08BDAACBFFD.tmp' to 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/Cyber_Pirates.umap'
+[2016.10.12-22.55.01:165][669]LogSavePackage:Display: Finished SavePackage E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/Cyber_Pirates.umap
+[2016.10.12-22.55.02:767][704]Cmd: QUIT_EDITOR
+[2016.10.12-22.55.02:894][704]LogExit: Preparing to exit.
+[2016.10.12-22.55.03:822][704]LogExit: Editor shut down
+[2016.10.12-22.55.03:823][704]LogExit: Transaction tracking system shut down
+[2016.10.12-22.55.04:069][704]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.12-22.55.04:070][704]LogExit: Object subsystem successfully closed.
+[2016.10.12-22.55.04:091][704]LogD3D11RHI: Shutdown
+[2016.10.12-22.55.04:092][704]LogD3D11RHI: CleanupD3DDevice
+[2016.10.12-22.55.04:224][704]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.12-22.55.04:264][704]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (237)
+[2016.10.12-22.55.04:264][704]LogModuleManager: Shutting down and abandoning module MaterialEditor (236)
+[2016.10.12-22.55.04:265][704]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.10.12-22.55.04:265][704]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.10.12-22.55.04:265][704]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.10.12-22.55.04:265][704]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.10.12-22.55.04:265][704]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.10.12-22.55.04:265][704]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.12-22.55.04:267][704]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.10.12-22.55.04:267][704]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.10.12-22.55.04:267][704]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.10.12-22.55.04:267][704]LogDirectoryWatcher: A directory notification for 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' was aborted.
+[2016.10.12-22.55.04:268][704]LogDirectoryWatcher: A directory notification for 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/aicaoc/Collections/' was aborted.
+[2016.10.12-22.55.04:268][704]LogDirectoryWatcher: A directory notification for 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' was aborted.
+[2016.10.12-22.55.04:268][704]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.10.12-22.55.04:270][704]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.10.12-22.55.04:270][704]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.10.12-22.55.04:271][704]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.10.12-22.55.04:272][704]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.10.12-22.55.04:272][704]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.10.12-22.55.04:272][704]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.10.12-22.55.04:273][704]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.10.12-22.55.04:274][704]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.10.12-22.55.04:275][704]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.10.12-22.55.04:276][704]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.10.12-22.55.04:277][704]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.10.12-22.55.04:277][704]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.10.12-22.55.04:277][704]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.10.12-22.55.04:277][704]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.10.12-22.55.04:372][704]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.10.12-22.55.04:373][704]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.10.12-22.55.04:373][704]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.10.12-22.55.04:373][704]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.10.12-22.55.04:374][704]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.10.12-22.55.04:375][704]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.10.12-22.55.04:375][704]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.10.12-22.55.04:375][704]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.10.12-22.55.04:375][704]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.10.12-22.55.04:375][704]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.10.12-22.55.04:376][704]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.10.12-22.55.04:376][704]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.10.12-22.55.04:377][704]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.10.12-22.55.04:377][704]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.10.12-22.55.04:377][704]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.10.12-22.55.04:377][704]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.10.12-22.55.04:377][704]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.10.12-22.55.04:378][704]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.10.12-22.55.04:378][704]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.10.12-22.55.04:379][704]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.10.12-22.55.04:379][704]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.10.12-22.55.04:381][704]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.10.12-22.55.04:382][704]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.10.12-22.55.04:383][704]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.10.12-22.55.04:385][704]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.10.12-22.55.04:385][704]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.10.12-22.55.04:436][704]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.10.12-22.55.04:436][704]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.10.12-22.55.04:438][704]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.10.12-22.55.04:441][704]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.10.12-22.55.04:441][704]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.10.12-22.55.04:441][704]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.10.12-22.55.04:442][704]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.10.12-22.55.04:442][704]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.10.12-22.55.04:446][704]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.10.12-22.55.04:447][704]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.10.12-22.55.04:447][704]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.10.12-22.55.04:448][704]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.10.12-22.55.04:448][704]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.10.12-22.55.04:450][704]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.10.12-22.55.04:450][704]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.10.12-22.55.04:450][704]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.10.12-22.55.04:451][704]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.10.12-22.55.04:452][704]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.10.12-22.55.04:660][704]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module SubstanceEditor (139)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.10.12-22.55.04:661][704]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.10.12-22.55.04:663][704]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.10.12-22.55.04:663][704]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.10.12-22.55.04:663][704]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.10.12-22.55.04:664][704]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.10.12-22.55.04:664][704]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.10.12-22.55.04:665][704]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.10.12-22.55.04:665][704]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.10.12-22.55.04:665][704]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.10.12-22.55.04:665][704]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.10.12-22.55.04:665][704]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.10.12-22.55.04:666][704]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.10.12-22.55.04:667][704]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.10.12-22.55.04:668][704]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.10.12-22.55.04:668][704]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.10.12-22.55.04:668][704]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.10.12-22.55.04:668][704]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.10.12-22.55.04:669][704]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.10.12-22.55.04:669][704]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.10.12-22.55.04:670][704]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.10.12-22.55.04:670][704]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.10.12-22.55.04:671][704]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.10.12-22.55.04:671][704]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.10.12-22.55.04:673][704]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.10.12-22.55.04:675][704]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.10.12-22.55.04:676][704]LogModuleManager: Shutting down and abandoning module UdpMessaging (97)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module TcpMessaging (96)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module SubstanceCore (95)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.12-22.55.04:776][704]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.12-22.55.04:780][704]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.12-22.55.04:781][704]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.12-22.55.04:782][704]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.12-22.55.04:782][704]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.12-22.55.04:785][704]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.12-22.55.04:785][704]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.12-22.55.04:785][704]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.12-22.55.04:786][704]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.12-22.55.04:788][704]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.12-22.55.04:789][704]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.12-22.55.04:790][704]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.12-22.55.04:790][704]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.12-22.55.04:796][704]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.12-22.55.04:797][704]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.12-22.55.04:797][704]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.12-22.55.04:797][704]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.12-22.55.04:797][704]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.12-22.55.04:797][704]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.12-22.55.04:797][704]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.12-22.55.04:797][704]LogDirectoryWatcher: A directory notification for 'E:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' was aborted.
+[2016.10.12-22.55.04:797][704]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.12-22.55.04:798][704]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.12-22.55.05:873][704]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.12-22.55.05:873][704]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.12-22.55.05:873][704]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.12-22.55.05:873][704]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.12-22.55.05:942][704]LogDerivedDataCache: Shutdown
+[2016.10.12-22.55.05:942][704]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.12-22.55.05:943][704]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.12-22.55.05:944][704]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.12-22.55.05:944][704]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.12-22.55.05:946][704]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.12-22.55.05:946][704]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.12-22.55.05:946][704]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.12-22.55.05:946][704]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.12-22.55.05:947][704]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.10.12-22.55.05:948][704]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.12-22.55.05:949][704]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.12-22.55.05:949][704]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.12-22.55.05:951][704]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.12-22.55.05:951][704]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.12-22.55.05:951][704]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BAB1677F5-4A2E-9DA6-13C4-57AF8556BD51%7D&AppID=UEEditor.Rocket.Release&AppVersion=%2B%2BUE4%2BRelease-4.13-CL-3106830&UserID=711d65f442f18987ff29b59c903d01d5%7Cd5bb4c53521c43ffbd21907b0f451aea%7C1bb07904-b504-4a96-8885-cb56301ccafe&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.12-22.55.05:964][704]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.12-22.55.05:964][704]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.12-22.55.05:964][704]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.12-22.55.05:964][704]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.12-22.55.05:964][704]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.12-22.55.05:970][704]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.12-22.55.05:975][704]LogExit: Exiting.
+[2016.10.12-22.55.06:001][704]Log file closed, 10/12/16 15:55:06
