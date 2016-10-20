@@ -1,0 +1,1311 @@
+﻿Log file open, 10/18/16 16:52:18
+LogInit:Display: Running engine for game: Cyber_Pirates_001
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(358581597) SRandInit(358581597).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.593932
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin GameAnalytics, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/GameAnalytics/GameAnalytics.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3142249
+LogInit: Engine Version: 4.13.1-3142249+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3142249
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Sep 28 2016 02:12:12
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.10.18-23.52.19:237][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.18-23.52.19:237][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.18-23.52.19:349][  0]LogInit: Computer: TRAVELER
+[2016.10.18-23.52.19:349][  0]LogInit: User: a1cla
+[2016.10.18-23.52.19:349][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.18-23.52.19:349][  0]LogInit: High frequency timer resolution =3.420547 MHz
+[2016.10.18-23.52.19:350][  0]LogMemory: Memory total: Physical=11.7GB (12GB approx)
+[2016.10.18-23.52.19:350][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.18-23.52.19:350][  0]LogMemory: Process Physical Memory: 258.66 MB used, 258.66 MB peak
+[2016.10.18-23.52.19:350][  0]LogMemory: Process Virtual Memory: 260.66 MB used, 260.66 MB peak
+[2016.10.18-23.52.19:350][  0]LogMemory: Physical Memory: 4943.58 MB used, 11979.79 MB total
+[2016.10.18-23.52.19:350][  0]LogMemory: Virtual Memory: 792.98 MB used, 134217728.00 MB total
+[2016.10.18-23.52.19:950][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.18-23.52.25:343][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.18-23.52.25:368][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
+[2016.10.18-23.52.25:368][  0]LogD3D11RHI:       2029/0/5989 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.10.18-23.52.25:511][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.10.18-23.52.25:511][  0]LogD3D11RHI:       224/0/1568 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.18-23.52.25:516][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.18-23.52.25:516][  0]LogD3D11RHI:       0/0/5989 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.18-23.52.25:516][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.18-23.52.25:520][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.18-23.52.25:520][  0]LogD3D11RHI:     GPU DeviceId: 0x6819 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.18-23.52.25:520][  0]LogWindows: EnumDisplayDevices:
+[2016.10.18-23.52.25:520][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:1 D:1)
+[2016.10.18-23.52.25:520][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:0 D:1)
+[2016.10.18-23.52.25:521][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.18-23.52.25:521][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.18-23.52.25:521][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.18-23.52.25:522][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.18-23.52.25:522][  0]LogWindows:    6. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.18-23.52.25:522][  0]LogWindows:    7. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.18-23.52.25:523][  0]LogWindows:    8. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.18-23.52.25:523][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2016.10.18-23.52.25:523][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
+[2016.10.18-23.52.25:523][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:20.19.0.32837, unified:20.19.0.32837)
+[2016.10.18-23.52.25:523][  0]LogD3D11RHI:      Driver Date: 7-21-2016
+[2016.10.18-23.52.25:523][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.18-23.52.25:530][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.18-23.52.25:552][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.10.18-23.52.25:553][  0]LogShaderCompilers: Guid format shader working directory is -70 characters bigger than the processId version (../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Intermediate/Shaders/WorkingDirectory/12200/).
+[2016.10.18-23.52.25:553][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a1cla/AppData/Local/Temp/UnrealShaderWorkingDir/17C1B4A944DC3C89E21EADB2622D4738/'.
+[2016.10.18-23.52.25:553][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.18-23.52.30:138][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.18-23.52.30:152][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.18-23.52.30:167][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.18-23.52.30:188][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.18-23.52.30:203][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.18-23.52.30:243][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.18-23.52.30:272][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.18-23.52.30:285][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.18-23.52.30:299][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.18-23.52.30:338][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.18-23.52.30:407][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.18-23.52.30:511][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.18-23.52.30:511][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.18-23.52.30:541][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.18-23.52.30:742][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.18-23.52.30:762][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.18-23.52.30:779][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.18-23.52.30:799][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.18-23.52.30:813][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.18-23.52.30:855][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.18-23.52.30:855][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.18-23.52.32:061][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache: Loaded boot cache 0.58s 62MB C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.18-23.52.32:638][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.18-23.52.32:778][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.18-23.52.32:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a1cla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.18-23.52.37:127][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.18-23.52.37:261][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.18-23.52.37:456][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.18-23.52.37:456][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.18-23.52.37:456][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.18-23.52.38:066][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.18-23.52.42:108][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cyber_pirates_001, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 989256561
+[2016.10.18-23.52.42:277][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2016.10.18-23.52.42:311][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.027785 seconds
+[2016.10.18-23.52.42:316][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.18-23.52.42:316][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.18-23.52.42:316][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.18-23.52.42:354][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.18-23.52.53:626][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.18-23.52.53:626][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.18-23.53.39:471][  0]LogGameAnalyticsAnalytics:Display: FAnalyticsGameAnalytics Constructor
+[2016.10.18-23.53.39:553][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.18-23.53.39:614][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.18-23.53.41:294][  0]SourceControl: Info Source control is disabled
+[2016.10.18-23.53.42:678][  0]SourceControl: Info Source control is disabled
+[2016.10.18-23.53.42:843][  0]SourceControl: Info Source control is disabled
+[2016.10.18-23.53.42:983][  0]SourceControl: Info Source control is disabled
+[2016.10.18-23.53.45:288][  0]LogEngine: Initializing Engine...
+[2016.10.18-23.53.45:290][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.18-23.53.45:951][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.18-23.53.46:045][  0]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.18-23.53.46:164][  0]LogInit: FAudioDevice initialized.
+[2016.10.18-23.53.46:209][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.18-23.53.46:216][  0]LogInit: Texture streaming: Enabled
+[2016.10.18-23.53.47:873][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.18-23.53.49:545][  0]LogInit: Transaction tracking system initialized
+[2016.10.18-23.53.49:968][  0]BlueprintLog: New page: Editor Load
+[2016.10.18-23.53.55:652][  0]LocalizationService: Info Localization service is disabled
+[2016.10.18-23.53.58:795][  0]LogConsoleResponse:Display: 
+[2016.10.18-23.54.01:328][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.18-23.54.01:328][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.18-23.54.02:047][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' took 0.01s
+[2016.10.18-23.54.05:303][  0]SourceControl: Info Source control is disabled
+[2016.10.18-23.54.05:303][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.18-23.54.05:304][  0]LightingResults: New page: Lighting Build
+[2016.10.18-23.54.05:310][  0]MapCheck: New page: Map Check
+[2016.10.18-23.54.05:310][  0]LightingResults: New page: Lighting Build
+[2016.10.18-23.54.07:036][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.18-23.54.07:298][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.18-23.54.07:349][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.18-23.54.07:430][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.643ms to complete.
+[2016.10.18-23.54.07:430][  0]LogFileHelpers: Loading map 'Template_Default' took 2.127
+[2016.10.18-23.54.07:869][  0]LogCollectionManager: Loaded 0 collections in 0.007404 seconds
+[2016.10.18-23.54.07:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' took 0.01s
+[2016.10.18-23.54.07:929][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/a1cla/Collections/' took 0.01s
+[2016.10.18-23.54.07:929][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' took 0.01s
+[2016.10.18-23.54.07:929][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000013 seconds
+[2016.10.18-23.54.07:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0189 seconds. Added 2142 classes and 418 folders.
+[2016.10.18-23.54.07:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.18-23.54.07:960][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.18-23.54.07:962][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0014 seconds. Added 12 classes and 0 folders.
+[2016.10.18-23.54.07:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.10.18-23.54.12:784][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.10.18-23.54.13:209][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.10.18-23.54.13:261][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.18-23.54.13:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.10.18-23.54.13:622][  0]LogLoad: (Engine Initialization) Total time: 321.87 seconds
+[2016.10.18-23.54.13:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.35 seconds
+[2016.10.18-23.54.13:622][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.18-23.54.13:622][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.18-23.54.13:633][  0]LogOcInput: OculusInput pre-init called
+[2016.10.18-23.54.13:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.18-23.54.14:408][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:2).
+[2016.10.18-23.54.14:783][  1]LogAssetRegistry: Asset discovery search completed in 92.5273 seconds
+[2016.10.18-23.54.14:783][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.18-23.54.14:783][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.10.18-23.54.17:345][ 38]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:39).
+[2016.10.18-23.54.28:017][231]LightingResults: New page: Lighting Build
+[2016.10.18-23.54.28:018][231]LoadErrors: New page: Loading map: PersistentLevel_Nav.umap
+[2016.10.18-23.54.28:020][231]MapCheck: New page: Map Check
+[2016.10.18-23.54.28:020][231]LightingResults: New page: Lighting Build
+[2016.10.18-23.54.28:036][231]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.18-23.54.28:082][231]LogMaterial: Missing cached shader map for material M_Path, compiling. 
+[2016.10.18-23.54.28:336][231]LogMaterial: Missing cached shader map for material M_Tower, compiling. 
+[2016.10.18-23.54.28:636][231]LogMaterial: Missing cached shader map for material M_Bridge, compiling. 
+[2016.10.18-23.54.29:886][231]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.18-23.54.29:906][231]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.18-23.54.30:005][231]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.229ms to complete.
+[2016.10.18-23.54.30:006][231]LogFileHelpers: Loading map 'PersistentLevel_Nav' took 2.003
+[2016.10.18-23.54.33:922][575]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2016.10.18-23.55.04:523][131]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_42)
+[2016.10.18-23.55.05:745][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_45)
+[2016.10.19-00.14.39:078][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.14.39:079][747]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:14:39 AM)
+[2016.10.19-00.14.39:079][747]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.14.39:080][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001366s)
+[2016.10.19-00.14.39:081][747]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.14.39:082][747]LogPlayLevel: PIE: World Init took: (0.001225s)
+[2016.10.19-00.14.39:082][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002909s)
+[2016.10.19-00.14.39:114][747]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.14.39:123][747]LogInit: FAudioDevice initialized.
+[2016.10.19-00.14.39:207][747]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.14.39:215][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:231][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:232][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:233][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:233][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:234][747]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.14.39:236][747]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.14.39
+[2016.10.19-00.14.39:237][747]LogWorld: Bringing up level for play took: 0.001126
+[2016.10.19-00.14.39:238][747]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.14.39:242][747]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.10.19-00.14.39:242][747]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.14.39:242][747]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.14.39:242][747]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.14.39:244][747]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.14.39:244][747]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.808
+[2016.10.19-00.15.45:655][405]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2016.10.19-00.15.49:495][618]LogSavePackage: Save=8.46ms
+[2016.10.19-00.15.49:495][618]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/PlayerCamera5DA2DE6146AC9189EB1BF08573B76235.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/PlayerCamera.uasset'
+[2016.10.19-00.15.49:498][618]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/PlayerCamera.uasset
+[2016.10.19-00.17.02:075][451]Cmd: TRANSACTION UNDO
+[2016.10.19-00.17.02:075][451]LogEditorTransaction: Undo Rotate Actors
+[2016.10.19-00.17.07:681][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.17.07:681][ 41]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:17:07 AM)
+[2016.10.19-00.17.07:681][ 41]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.17.07:682][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001174s)
+[2016.10.19-00.17.07:683][ 41]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.17.07:683][ 41]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2016.10.19-00.17.07:683][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002254s)
+[2016.10.19-00.17.07:744][ 41]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.17.07:753][ 41]LogInit: FAudioDevice initialized.
+[2016.10.19-00.17.07:785][ 41]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.17.07:793][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:808][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:809][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:810][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:810][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:811][ 41]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.17.07:813][ 41]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.17.07
+[2016.10.19-00.17.07:813][ 41]LogWorld: Bringing up level for play took: 0.001414
+[2016.10.19-00.17.07:814][ 41]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.17.07:814][ 41]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.17.07:815][ 41]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.17.07:815][ 41]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.17.07:815][ 41]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.17.07:815][ 41]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.236
+[2016.10.19-00.17.12:299][528]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.19-00.17.29:176][189]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.19-00.17.59:630][984]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.19-00.18.26:382][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.18.26:382][305]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:18:26 AM)
+[2016.10.19-00.18.26:382][305]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.18.26:383][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001060s)
+[2016.10.19-00.18.26:384][305]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.18.26:384][305]LogPlayLevel: PIE: World Init took: (0.000959s)
+[2016.10.19-00.18.26:385][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002227s)
+[2016.10.19-00.18.26:438][305]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.18.26:446][305]LogInit: FAudioDevice initialized.
+[2016.10.19-00.18.26:477][305]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.18.26:485][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:500][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:501][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:502][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:502][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:503][305]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.18.26:505][305]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.18.26
+[2016.10.19-00.18.26:506][305]LogWorld: Bringing up level for play took: 0.001410
+[2016.10.19-00.18.26:506][305]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.18.26:507][305]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.18.26:507][305]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.18.26:507][305]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.18.26:508][305]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.18.26:508][305]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.456
+[2016.10.19-00.18.31:792][893]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.19-00.19.03:175][706]BlueprintLog: New page: Compile PlayerCamera
+[2016.10.19-00.19.03:184][706]LogUObjectGlobals:Warning: Guid referenced by SceneComponent /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav:PersistentLevel.PlayerCamera_2.SceneComponent is already used by SceneComponent /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav:PersistentLevel.REINST_PlayerCamera_C_0.SceneComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.10.19-00.19.03:184][706]LogUObjectGlobals:Warning: Guid referenced by CameraComponent /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav:PersistentLevel.PlayerCamera_2.CameraComponent is already used by CameraComponent /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav:PersistentLevel.REINST_PlayerCamera_C_0.CameraComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2016.10.19-00.19.03:617][713]LogSavePackage: Save=6.76ms
+[2016.10.19-00.19.03:617][713]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/PlayerCamera34D5F9C947856D10806F409CA1096CD8.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/PlayerCamera.uasset'
+[2016.10.19-00.19.03:619][713]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/PlayerCamera.uasset
+[2016.10.19-00.19.04:391][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.19.04:391][766]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:19:04 AM)
+[2016.10.19-00.19.04:391][766]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.19.04:392][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000983s)
+[2016.10.19-00.19.04:393][766]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.19.04:393][766]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2016.10.19-00.19.04:394][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002060s)
+[2016.10.19-00.19.04:449][766]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.19.04:457][766]LogInit: FAudioDevice initialized.
+[2016.10.19-00.19.04:488][766]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.19.04:505][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:542][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:543][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:545][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:546][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:547][766]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.04:550][766]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.19.04
+[2016.10.19-00.19.04:550][766]LogWorld: Bringing up level for play took: 0.001487
+[2016.10.19-00.19.04:551][766]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.19.04:551][766]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.04:551][766]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.04:551][766]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.04:552][766]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.04:552][766]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.501
+[2016.10.19-00.19.22:326][565]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.19.22:326][565]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:19:22 AM)
+[2016.10.19-00.19.22:326][565]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.19.22:327][565]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001043s)
+[2016.10.19-00.19.22:328][565]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.19.22:328][565]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2016.10.19-00.19.22:328][565]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002068s)
+[2016.10.19-00.19.22:379][565]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.19.22:387][565]LogInit: FAudioDevice initialized.
+[2016.10.19-00.19.22:419][565]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.19.22:426][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:442][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:442][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:443][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:443][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:444][565]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.22:446][565]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.19.22
+[2016.10.19-00.19.22:446][565]LogWorld: Bringing up level for play took: 0.001290
+[2016.10.19-00.19.22:447][565]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.19.22:447][565]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.22:447][565]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.22:447][565]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.22:448][565]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.22:448][565]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.397
+[2016.10.19-00.19.29:873][263]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.19-00.19.30:740][355]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-00.19.39:572][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.19.39:572][315]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:19:39 AM)
+[2016.10.19-00.19.39:572][315]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.19.39:573][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001102s)
+[2016.10.19-00.19.39:574][315]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.19.39:574][315]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2016.10.19-00.19.39:574][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002098s)
+[2016.10.19-00.19.39:627][315]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.19.39:635][315]LogInit: FAudioDevice initialized.
+[2016.10.19-00.19.39:668][315]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.19.39:675][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:691][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:692][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:693][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:693][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:694][315]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.19.39:696][315]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.19.39
+[2016.10.19-00.19.39:696][315]LogWorld: Bringing up level for play took: 0.001306
+[2016.10.19-00.19.39:697][315]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.19.39:697][315]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.39:697][315]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.19.39:697][315]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.39:698][315]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.19.39:698][315]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.353
+[2016.10.19-00.19.43:577][681]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-00.19.51:940][575]Cmd: MODE ROTGRID=0
+[2016.10.19-00.19.53:053][687]Cmd: MODE ROTGRID=1
+[2016.10.19-00.20.00:405][477]Cmd: MODE ROTGRID=0
+[2016.10.19-00.20.05:579][ 31]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.20.05:579][ 31]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:20:05 AM)
+[2016.10.19-00.20.05:579][ 31]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.20.05:580][ 31]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001091s)
+[2016.10.19-00.20.05:580][ 31]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.20.05:581][ 31]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2016.10.19-00.20.05:581][ 31]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002211s)
+[2016.10.19-00.20.05:632][ 31]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.20.05:640][ 31]LogInit: FAudioDevice initialized.
+[2016.10.19-00.20.05:672][ 31]LogWorld: Game class is 'GameMode'
+[2016.10.19-00.20.05:679][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:695][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:696][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:696][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:697][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:697][ 31]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.20.05:699][ 31]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.20.05
+[2016.10.19-00.20.05:700][ 31]LogWorld: Bringing up level for play took: 0.001310
+[2016.10.19-00.20.05:700][ 31]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.20.05:701][ 31]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.20.05:701][ 31]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.20.05:701][ 31]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.20.05:702][ 31]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.20.05:702][ 31]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.35
+[2016.10.19-00.20.37:497][310]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.10.19-00.21.03:161][998]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-00.21.14:927][246]Cmd: TRANSACTION UNDO
+[2016.10.19-00.21.14:927][246]LogEditorTransaction: Undo Move Actors
+[2016.10.19-00.23.48:051][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.23.48:052][577]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:23:48 AM)
+[2016.10.19-00.23.48:052][577]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.23.48:053][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001281s)
+[2016.10.19-00.23.48:054][577]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.23.48:054][577]LogPlayLevel: PIE: World Init took: (0.001040s)
+[2016.10.19-00.23.48:054][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002566s)
+[2016.10.19-00.23.48:112][577]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.23.48:121][577]LogInit: FAudioDevice initialized.
+[2016.10.19-00.23.48:152][577]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.23.48:159][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:176][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:177][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:177][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:178][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:178][577]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.23.48:181][577]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.23.48
+[2016.10.19-00.23.48:181][577]LogWorld: Bringing up level for play took: 0.001363
+[2016.10.19-00.23.48:182][577]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.23.48:182][577]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.23.48:182][577]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.23.48:182][577]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.23.48:183][577]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.23.48:183][577]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.132
+[2016.10.19-00.24.07:889][464]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.19-00.24.08:688][548]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-00.24.24:804][288]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.24.24:804][288]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:24:24 AM)
+[2016.10.19-00.24.24:804][288]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.24.24:805][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001004s)
+[2016.10.19-00.24.24:806][288]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.24.24:806][288]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.10.19-00.24.24:806][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002016s)
+[2016.10.19-00.24.24:862][288]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.24.24:870][288]LogInit: FAudioDevice initialized.
+[2016.10.19-00.24.24:903][288]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.24.24:910][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:926][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:927][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:928][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:928][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:929][288]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.24.24:931][288]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.24.24
+[2016.10.19-00.24.24:932][288]LogWorld: Bringing up level for play took: 0.001445
+[2016.10.19-00.24.24:932][288]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.24.24:933][288]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.24.24:933][288]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.24.24:933][288]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.24.24:933][288]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.24.24:933][288]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.882
+[2016.10.19-00.25.21:288][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.25.21:288][160]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:25:21 AM)
+[2016.10.19-00.25.21:288][160]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.25.21:290][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001172s)
+[2016.10.19-00.25.21:290][160]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.25.21:290][160]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2016.10.19-00.25.21:291][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002215s)
+[2016.10.19-00.25.21:348][160]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.25.21:358][160]LogInit: FAudioDevice initialized.
+[2016.10.19-00.25.21:389][160]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.25.21:396][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:412][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:413][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:413][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:414][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:414][160]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.25.21:416][160]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.25.21
+[2016.10.19-00.25.21:417][160]LogWorld: Bringing up level for play took: 0.001268
+[2016.10.19-00.25.21:417][160]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2016.10.19-00.25.21:418][160]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.25.21:418][160]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.25.21:418][160]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.25.21:419][160]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.25.21:419][160]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.632
+[2016.10.19-00.25.53:310][618]BlueprintLog: New page: Compile TowerDefenseGameMode
+[2016.10.19-00.25.53:314][618]LogBlueprint:Error: [Compiler TowerDefenseGameMode] Error This blueprint (self) is not a PlayerController, therefore ' self ' must have a connection.
+[2016.10.19-00.25.53:314][618]LogBlueprint:Error: [Compiler TowerDefenseGameMode] Error Variable node  K2Node_VariableSet_0  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.19-00.25.53:505][618]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerController, therefore ' self ' must have a connection.
+[2016.10.19-00.25.53:505][618]BlueprintEditorCompileResults:Error: Error Variable node  K2Node_VariableSet_0  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2016.10.19-00.25.53:505][618]LogBlueprint:Warning: [Compiler TowerDefenseGameMode] Warning [2221.75] Compile of TowerDefenseGameMode failed. 2 Fatal Issue(s) 0 Warning(s) [in 195 ms] (/Game/BluePrint/TowerDefenseGameMode.TowerDefenseGameMode)
+[2016.10.19-00.25.53:740][633]LogSavePackage: Save=8.98ms
+[2016.10.19-00.25.53:740][633]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/TowerDefenseGameMode79FE91544EDEBE3F540ECF968FF5574E.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/TowerDefenseGameMode.uasset'
+[2016.10.19-00.25.53:743][633]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/TowerDefenseGameMode.uasset
+[2016.10.19-00.26.02:470][216]BlueprintLog: New page: Compile TowerDefenseGameMode
+[2016.10.19-00.26.02:965][247]LogSavePackage: Save=8.58ms
+[2016.10.19-00.26.02:965][247]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/TowerDefenseGameMode40C31FF14356DB0812128A9F123534FC.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/TowerDefenseGameMode.uasset'
+[2016.10.19-00.26.02:968][247]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/TowerDefenseGameMode.uasset
+[2016.10.19-00.26.03:808][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.26.03:809][311]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:26:03 AM)
+[2016.10.19-00.26.03:809][311]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.26.03:810][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000964s)
+[2016.10.19-00.26.03:810][311]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.26.03:811][311]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2016.10.19-00.26.03:811][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002015s)
+[2016.10.19-00.26.03:863][311]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.26.03:871][311]LogInit: FAudioDevice initialized.
+[2016.10.19-00.26.03:908][311]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.26.03:925][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:954][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:955][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:955][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:956][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:956][311]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.03:959][311]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.26.03
+[2016.10.19-00.26.03:959][311]LogWorld: Bringing up level for play took: 0.001439
+[2016.10.19-00.26.03:960][311]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.03:960][311]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.03:960][311]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.03:960][311]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.03:960][311]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.091
+[2016.10.19-00.26.10:156][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.26.10:156][825]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:26:10 AM)
+[2016.10.19-00.26.10:156][825]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.26.10:157][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001055s)
+[2016.10.19-00.26.10:158][825]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.26.10:158][825]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2016.10.19-00.26.10:158][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.001991s)
+[2016.10.19-00.26.10:218][825]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.26.10:226][825]LogInit: FAudioDevice initialized.
+[2016.10.19-00.26.10:260][825]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.26.10:267][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:284][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:284][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:285][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:286][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:286][825]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.10:288][825]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.26.10
+[2016.10.19-00.26.10:289][825]LogWorld: Bringing up level for play took: 0.001435
+[2016.10.19-00.26.10:290][825]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.10:290][825]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.10:290][825]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.10:290][825]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.10:290][825]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.239
+[2016.10.19-00.26.14:903][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-00.26.14:903][240]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 9:26:14 AM)
+[2016.10.19-00.26.14:903][240]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-00.26.14:904][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000993s)
+[2016.10.19-00.26.14:905][240]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-00.26.14:905][240]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2016.10.19-00.26.14:905][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002007s)
+[2016.10.19-00.26.14:967][240]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-00.26.14:975][240]LogInit: FAudioDevice initialized.
+[2016.10.19-00.26.15:025][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:041][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:042][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:043][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:043][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:044][240]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-00.26.15:053][240]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-00.26.15:055][240]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-17.26.15
+[2016.10.19-00.26.15:055][240]LogWorld: Bringing up level for play took: 0.001502
+[2016.10.19-00.26.15:056][240]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.15:056][240]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-00.26.15:056][240]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.15:057][240]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-00.26.15:063][240]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 1.011
+[2016.10.19-00.26.15:090][240]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:92361).
+[2016.10.19-00.27.22:344][356]LogSavePackage: Save=11.23ms
+[2016.10.19-00.27.22:344][356]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/PersistentLevel_Nav_Auto142A6438C4DCCE404318793A6C9BC1364.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/PersistentLevel_Nav_Auto1.umap'
+[2016.10.19-00.27.22:346][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/PersistentLevel_Nav_Auto1.umap
+[2016.10.19-00.27.22:349][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/PersistentLevel_Nav' took 0.041
+[2016.10.19-00.27.22:349][356]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.041
+[2016.10.19-02.10.16:461][879]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-02.10.16:462][879]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 11:10:16 AM)
+[2016.10.19-02.10.16:463][879]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-02.10.16:468][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005074s)
+[2016.10.19-02.10.16:471][879]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-02.10.16:472][879]LogPlayLevel: PIE: World Init took: (0.003673s)
+[2016.10.19-02.10.16:473][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.009694s)
+[2016.10.19-02.10.16:556][879]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-02.10.16:568][879]LogInit: FAudioDevice initialized.
+[2016.10.19-02.10.16:649][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:670][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:671][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:672][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:673][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:674][879]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.10.16:684][879]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-02.10.16:688][879]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-19.10.16
+[2016.10.19-02.10.16:688][879]LogWorld: Bringing up level for play took: 0.002694
+[2016.10.19-02.10.16:691][879]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-02.10.16:691][879]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-02.10.16:691][879]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-02.10.16:692][879]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-02.10.16:700][879]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.648
+[2016.10.19-02.10.23:996][382]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-02.10.30:293][789]LogEditorViewport: Clicking on Actor (LMB): PlayerCamera_C (PlayerCamera)
+[2016.10.19-02.10.30:497][808]Cmd: DELETE
+[2016.10.19-02.10.30:497][808]Cmd: ACTOR DELETE
+[2016.10.19-02.10.30:497][808]LogEditorActor: Deleted Actor: PlayerCamera_C
+[2016.10.19-02.10.30:538][808]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2016.10.19-02.11.06:099][183]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-02.11.06:099][183]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 11:11:06 AM)
+[2016.10.19-02.11.06:099][183]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-02.11.06:100][183]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000849s)
+[2016.10.19-02.11.06:101][183]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-02.11.06:101][183]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2016.10.19-02.11.06:101][183]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.001893s)
+[2016.10.19-02.11.06:166][183]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-02.11.06:176][183]LogInit: FAudioDevice initialized.
+[2016.10.19-02.11.06:232][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:251][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:251][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:252][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:253][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:254][183]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-02.11.06:265][183]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-02.11.06:267][183]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.18-19.11.06
+[2016.10.19-02.11.06:267][183]LogWorld: Bringing up level for play took: 0.001288
+[2016.10.19-02.11.06:269][183]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-02.11.06:269][183]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-02.11.06:269][183]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-02.11.06:269][183]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-02.11.06:275][183]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.224
+[2016.10.19-02.12.42:687][501]LogSavePackage: Save=12.18ms
+[2016.10.19-02.12.42:687][501]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/PersistentLevel_Nav_Auto2085EFE664C232540271CCB9343501AA1.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/PersistentLevel_Nav_Auto2.umap'
+[2016.10.19-02.12.42:689][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/PersistentLevel_Nav_Auto2.umap
+[2016.10.19-02.12.42:709][501]LogSavePackage: Save=9.24ms
+[2016.10.19-02.12.42:709][501]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/GamePlayLevel_Auto2CFC8C768428705248123CEAD8223CE33.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/GamePlayLevel_Auto2.umap'
+[2016.10.19-02.12.42:710][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Autosaves/Game/Level/GamePlayLevel_Auto2.umap
+[2016.10.19-02.12.42:711][501]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/PersistentLevel_Nav' took 0.062
+[2016.10.19-02.12.42:711][501]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.062
+[2016.10.19-02.17.19:797][537]LogSavePackage: Save=10.22ms
+[2016.10.19-02.17.19:797][537]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/PersistentLevel_Nav36A171EC4D5704578D9F0E8D057ED3EE.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/PersistentLevel_Nav.umap'
+[2016.10.19-02.17.19:801][537]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/PersistentLevel_Nav.umap
+[2016.10.19-07.01.17:621][646]LogRenderer: Reallocating scene render targets to support 1292x900 (Frame:654104).
+[2016.10.19-07.01.53:745][825]LogEditorTransaction: Undo Modify Component(s)
+[2016.10.19-07.01.54:624][926]LogEditorTransaction: Undo Modify Component(s)
+[2016.10.19-07.04.58:285][344]Cmd: MODE ROTGRID=1
+[2016.10.19-07.06.21:515][583]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.07.35:270][ 51]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.07.35:974][ 93]LogSavePackage: Save=18.03ms
+[2016.10.19-07.07.35:974][ 93]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Tower1C0E2B0DD471B6730B564B0AEC5E24FE0.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset'
+[2016.10.19-07.07.35:978][ 93]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset
+[2016.10.19-07.07.41:270][704]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.09.33:240][519]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.09.37:760][914]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2016.10.19-07.09.43:287][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.09.43:287][479]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:09:43 PM)
+[2016.10.19-07.09.43:287][479]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.09.43:289][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002158s)
+[2016.10.19-07.09.43:290][479]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.09.43:291][479]LogPlayLevel: PIE: World Init took: (0.001716s)
+[2016.10.19-07.09.43:291][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.004131s)
+[2016.10.19-07.09.43:325][479]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.09.43:337][479]LogInit: FAudioDevice initialized.
+[2016.10.19-07.09.43:393][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:413][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:414][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:415][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:417][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:418][479]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.09.43:427][479]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.09.43:430][479]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.09.43
+[2016.10.19-07.09.43:431][479]LogWorld: Bringing up level for play took: 0.001953
+[2016.10.19-07.09.43:432][479]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.09.43:432][479]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.09.43:432][479]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.09.43:433][479]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.09.43:438][479]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.613
+[2016.10.19-07.10.12:625][546]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.10.13:206][595]LogSavePackage: Save=18.56ms
+[2016.10.19-07.10.13:206][595]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Tower1433F0A47426313296A52DAAE91EFCCE2.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset'
+[2016.10.19-07.10.13:328][595]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset
+[2016.10.19-07.10.14:324][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.10.14:324][708]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:10:14 PM)
+[2016.10.19-07.10.14:324][708]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.10.14:326][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001699s)
+[2016.10.19-07.10.14:326][708]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.10.14:327][708]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2016.10.19-07.10.14:327][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.003191s)
+[2016.10.19-07.10.14:367][708]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.10.14:381][708]LogInit: FAudioDevice initialized.
+[2016.10.19-07.10.14:428][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:446][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:447][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:447][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:448][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:450][708]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.14:460][708]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.10.14:463][708]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.10.14
+[2016.10.19-07.10.14:463][708]LogWorld: Bringing up level for play took: 0.001819
+[2016.10.19-07.10.14:464][708]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.14:465][708]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.14:465][708]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.14:465][708]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.14:467][708]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.416
+[2016.10.19-07.10.23:434][356]LogEditorViewport: Clicking on Actor (LMB): Tower1_C (Tower1)
+[2016.10.19-07.10.31:659][166]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.10.31:659][166]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:10:31 PM)
+[2016.10.19-07.10.31:659][166]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.10.31:661][166]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001497s)
+[2016.10.19-07.10.31:661][166]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.10.31:662][166]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2016.10.19-07.10.31:662][166]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002513s)
+[2016.10.19-07.10.31:696][166]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.10.31:706][166]LogInit: FAudioDevice initialized.
+[2016.10.19-07.10.31:757][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:773][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:774][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:775][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:776][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:778][166]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.31:787][166]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.10.31:789][166]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.10.31
+[2016.10.19-07.10.31:790][166]LogWorld: Bringing up level for play took: 0.001675
+[2016.10.19-07.10.31:791][166]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.31:791][166]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.31:791][166]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.31:791][166]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.31:797][166]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.254
+[2016.10.19-07.10.45:929][ 54]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.10.47:419][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.10.47:419][218]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:10:47 PM)
+[2016.10.19-07.10.47:419][218]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.10.47:421][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001716s)
+[2016.10.19-07.10.47:422][218]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.10.47:422][218]LogPlayLevel: PIE: World Init took: (0.000736s)
+[2016.10.19-07.10.47:422][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002679s)
+[2016.10.19-07.10.47:455][218]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.10.47:465][218]LogInit: FAudioDevice initialized.
+[2016.10.19-07.10.47:514][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:532][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:533][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:534][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:535][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:536][218]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.10.47:545][218]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.10.47:547][218]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.10.47
+[2016.10.19-07.10.47:548][218]LogWorld: Bringing up level for play took: 0.001646
+[2016.10.19-07.10.47:549][218]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.47:549][218]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.10.47:549][218]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.47:549][218]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.10.47:551][218]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.5
+[2016.10.19-07.11.29:950][338]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.11.31:398][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.11.31:398][476]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:11:31 PM)
+[2016.10.19-07.11.31:398][476]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.11.31:400][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001829s)
+[2016.10.19-07.11.31:400][476]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.11.31:401][476]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2016.10.19-07.11.31:401][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002907s)
+[2016.10.19-07.11.31:434][476]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.11.31:446][476]LogInit: FAudioDevice initialized.
+[2016.10.19-07.11.31:491][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:508][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:509][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:510][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:511][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:512][476]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.31:521][476]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.11.31:524][476]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.11.31
+[2016.10.19-07.11.31:524][476]LogWorld: Bringing up level for play took: 0.001484
+[2016.10.19-07.11.31:525][476]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.11.31:525][476]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.11.31:525][476]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.11.31:526][476]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.11.31:527][476]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.524
+[2016.10.19-07.11.52:683][588]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.11.54:391][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.11.54:392][748]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:11:54 PM)
+[2016.10.19-07.11.54:392][748]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.11.54:394][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001831s)
+[2016.10.19-07.11.54:394][748]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.11.54:395][748]LogPlayLevel: PIE: World Init took: (0.000966s)
+[2016.10.19-07.11.54:395][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.003073s)
+[2016.10.19-07.11.54:427][748]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.11.54:439][748]LogInit: FAudioDevice initialized.
+[2016.10.19-07.11.54:490][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:507][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:508][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:509][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:510][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:511][748]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.11.54:520][748]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.11.54:523][748]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.11.54
+[2016.10.19-07.11.54:523][748]LogWorld: Bringing up level for play took: 0.001731
+[2016.10.19-07.11.54:524][748]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.11.54:524][748]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.11.54:524][748]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.11.54:525][748]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.11.54:530][748]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.479
+[2016.10.19-07.12.03:866][367]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_52)
+[2016.10.19-07.12.04:555][430]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Path_51)
+[2016.10.19-07.12.05:498][517]LogEditorViewport: Clicking on Actor (LMB): Tower1_C (Tower1)
+[2016.10.19-07.12.08:308][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.12.08:308][796]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:12:08 PM)
+[2016.10.19-07.12.08:308][796]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.12.08:310][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001747s)
+[2016.10.19-07.12.08:310][796]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.12.08:311][796]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2016.10.19-07.12.08:311][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002668s)
+[2016.10.19-07.12.08:343][796]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.12.08:354][796]LogInit: FAudioDevice initialized.
+[2016.10.19-07.12.08:402][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:418][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:419][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:420][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:421][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:423][796]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.08:432][796]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.12.08:434][796]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.12.08
+[2016.10.19-07.12.08:434][796]LogWorld: Bringing up level for play took: 0.001440
+[2016.10.19-07.12.08:435][796]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.08:435][796]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.08:435][796]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.08:436][796]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.08:442][796]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.39
+[2016.10.19-07.12.13:514][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.12.13:514][ 80]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:12:13 PM)
+[2016.10.19-07.12.13:514][ 80]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.12.13:516][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001567s)
+[2016.10.19-07.12.13:516][ 80]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.12.13:516][ 80]LogPlayLevel: PIE: World Init took: (0.000830s)
+[2016.10.19-07.12.13:517][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002665s)
+[2016.10.19-07.12.13:560][ 80]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.12.13:569][ 80]LogInit: FAudioDevice initialized.
+[2016.10.19-07.12.13:618][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:635][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:636][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:636][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:637][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:639][ 80]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.13:647][ 80]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.12.13:650][ 80]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.12.13
+[2016.10.19-07.12.13:651][ 80]LogWorld: Bringing up level for play took: 0.001637
+[2016.10.19-07.12.13:652][ 80]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.13:652][ 80]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.13:652][ 80]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.13:652][ 80]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.13:657][ 80]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.394
+[2016.10.19-07.12.35:414][301]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.12.35:904][340]LogSavePackage: Save=18.65ms
+[2016.10.19-07.12.35:905][340]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Tower14A8801444B8370934FC60D97F206C30D.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset'
+[2016.10.19-07.12.35:908][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset
+[2016.10.19-07.12.38:232][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.12.38:232][613]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:12:38 PM)
+[2016.10.19-07.12.38:232][613]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.12.38:234][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001563s)
+[2016.10.19-07.12.38:234][613]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.12.38:234][613]LogPlayLevel: PIE: World Init took: (0.000808s)
+[2016.10.19-07.12.38:235][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002601s)
+[2016.10.19-07.12.38:265][613]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.12.38:275][613]LogInit: FAudioDevice initialized.
+[2016.10.19-07.12.38:321][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:337][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:338][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:339][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:340][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:342][613]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.12.38:351][613]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.12.38:353][613]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.12.38
+[2016.10.19-07.12.38:354][613]LogWorld: Bringing up level for play took: 0.001402
+[2016.10.19-07.12.38:355][613]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.38:355][613]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.12.38:355][613]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.38:355][613]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.12.38:357][613]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav 0.306
+[2016.10.19-07.13.39:847][ 24]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.13.40:454][ 77]LogSavePackage: Save=18.61ms
+[2016.10.19-07.13.40:454][ 77]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Tower18752DD48455D91F61967338ACD964192.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset'
+[2016.10.19-07.13.40:457][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset
+[2016.10.19-07.13.41:252][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.13.41:252][168]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:13:41 PM)
+[2016.10.19-07.13.41:252][168]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.13.41:254][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002214s)
+[2016.10.19-07.13.41:255][168]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.13.41:255][168]LogPlayLevel: PIE: World Init took: (0.000996s)
+[2016.10.19-07.13.41:255][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.003541s)
+[2016.10.19-07.13.41:288][168]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.13.41:297][168]LogInit: FAudioDevice initialized.
+[2016.10.19-07.13.41:344][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:360][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:361][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:362][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:363][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:364][168]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.41:373][168]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.13.41:375][168]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.13.41
+[2016.10.19-07.13.41:376][168]LogWorld: Bringing up level for play took: 0.001527
+[2016.10.19-07.13.41:377][168]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.13.41:377][168]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.13.41:377][168]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.13.41:377][168]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.13.41:379][168]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.672
+[2016.10.19-07.13.58:474][928]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.13.59:227][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.13.59:227][  3]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:13:59 PM)
+[2016.10.19-07.13.59:227][  3]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.13.59:229][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001818s)
+[2016.10.19-07.13.59:229][  3]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.13.59:230][  3]LogPlayLevel: PIE: World Init took: (0.000933s)
+[2016.10.19-07.13.59:230][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002974s)
+[2016.10.19-07.13.59:263][  3]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.13.59:272][  3]LogInit: FAudioDevice initialized.
+[2016.10.19-07.13.59:314][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:331][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:332][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:332][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:333][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:335][  3]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.13.59:344][  3]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.13.59:346][  3]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.13.59
+[2016.10.19-07.13.59:347][  3]LogWorld: Bringing up level for play took: 0.001575
+[2016.10.19-07.13.59:348][  3]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.13.59:348][  3]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.13.59:348][  3]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.13.59:349][  3]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.13.59:350][  3]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.701
+[2016.10.19-07.14.06:197][540]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.14.07:898][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.19-07.14.07:899][729]PIE: New page: PIE session: PersistentLevel_Nav (Oct 18, 2016, 4:14:07 PM)
+[2016.10.19-07.14.07:899][729]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.19-07.14.07:901][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002668s)
+[2016.10.19-07.14.07:902][729]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.19-07.14.07:902][729]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2016.10.19-07.14.07:902][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.003638s)
+[2016.10.19-07.14.07:935][729]LogInit: XAudio2 using 'Speakers (2- Afterglow PS4 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.19-07.14.07:945][729]LogInit: FAudioDevice initialized.
+[2016.10.19-07.14.07:990][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:006][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:007][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:008][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:009][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/GamePlayLevel.GamePlayLevel to /Game/Level/UEDPIE_0_GamePlayLevel.GamePlayLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:010][729]LogWorld: PIE: Copying PIE streaming level from /Game/Level/LightingLevel.LightingLevel to /Game/Level/UEDPIE_0_LightingLevel.LightingLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.19-07.14.08:019][729]LogWorld: Game class is 'TowerDefenseGameMode_C'
+[2016.10.19-07.14.08:022][729]LogWorld: Bringing World /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav up for play (max tick rate 0) at 2016.10.19-00.14.08
+[2016.10.19-07.14.08:022][729]LogWorld: Bringing up level for play took: 0.001735
+[2016.10.19-07.14.08:023][729]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.14.08:023][729]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.10.19-07.14.08:023][729]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.14.08:024][729]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.10.19-07.14.08:026][729]PIE: Info Play in editor start time for /Game/Level/UEDPIE_0_PersistentLevel_Nav -0.025
+[2016.10.19-07.16.11:970][ 60]LogEditorViewport: Clicking on Actor (LMB): Tower1_C (Tower1)
+[2016.10.19-07.16.13:123][180]Cmd: DELETE
+[2016.10.19-07.16.13:123][180]Cmd: ACTOR DELETE
+[2016.10.19-07.16.13:124][180]LogEditorActor: Deleted Actor: Tower1_C
+[2016.10.19-07.16.13:142][180]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2016.10.19-07.16.44:157][225]LogEditorTransaction: Undo Modify Component(s)
+[2016.10.19-07.16.44:939][294]LogEditorTransaction: Undo Modify Component(s)
+[2016.10.19-07.16.57:779][601]LogEditorTransaction: Undo Modify Component(s)
+[2016.10.19-07.17.12:201][ 94]Cmd: MODE GRID=0
+[2016.10.19-07.17.12:738][148]Cmd: MODE GRID=1
+[2016.10.19-07.17.16:251][520]Cmd: MODE GRID=0
+[2016.10.19-07.17.44:262][893]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.17.52:774][689]BlueprintLog: New page: Compile Tower1
+[2016.10.19-07.17.53:219][715]LogSavePackage: Save=18.95ms
+[2016.10.19-07.17.53:219][715]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Tower1CBC86E9740825128FEC792862C6A1336.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset'
+[2016.10.19-07.17.53:222][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/BluePrint/Tower1.uasset
+[2016.10.19-07.18.03:022][684]Cmd: DELETE
+[2016.10.19-07.18.03:022][684]Cmd: ACTOR DELETE
+[2016.10.19-07.18.03:022][684]LogEditorActor: Deleted Actor: Tower1_C
+[2016.10.19-07.18.03:041][684]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2016.10.19-07.18.12:754][233]LogSavePackage: Save=8.88ms
+[2016.10.19-07.18.12:754][233]LogSavePackage: Moving '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/GamePlayLevel1277F5FB42DC229AE30B40BB2B1139B6.tmp' to '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/GamePlayLevel.umap'
+[2016.10.19-07.18.12:757][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Level/GamePlayLevel.umap
+[2016.10.19-07.19.06:909][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.19-07.19.06:982][900]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.10.19-07.19.07:054][900]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.19-07.19.07:256][901]Cmd: QUIT_EDITOR
+[2016.10.19-07.19.07:762][901]LogExit: Preparing to exit.
+[2016.10.19-07.19.08:488][901]LogDirectoryWatcher: A directory notification for 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' was aborted.
+[2016.10.19-07.19.08:581][901]LogExit: Editor shut down
+[2016.10.19-07.19.08:582][901]LogExit: Transaction tracking system shut down
+[2016.10.19-07.19.08:761][901]LogObj: Freed 0b from 0 cluster array pools.
+[2016.10.19-07.19.08:761][901]LogExit: Object subsystem successfully closed.
+[2016.10.19-07.19.08:775][901]LogD3D11RHI: Shutdown
+[2016.10.19-07.19.08:775][901]LogD3D11RHI: CleanupD3DDevice
+[2016.10.19-07.19.08:905][901]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.10.19-07.19.08:931][901]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (240)
+[2016.10.19-07.19.08:931][901]LogModuleManager: Shutting down and abandoning module BlueprintGraph (239)
+[2016.10.19-07.19.08:931][901]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (238)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (237)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module WorldBrowser (236)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (235)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module CrashTracker (234)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module SceneOutliner (233)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module WidgetCarousel (232)
+[2016.10.19-07.19.08:932][901]LogModuleManager: Shutting down and abandoning module AddContentDialog (231)
+[2016.10.19-07.19.08:932][901]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module GameplayTags (230)
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module EditorWidgets (229)
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module CollectionManager (228)
+[2016.10.19-07.19.08:937][901]LogDirectoryWatcher: A directory notification for 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' was aborted.
+[2016.10.19-07.19.08:937][901]LogDirectoryWatcher: A directory notification for 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/a1cla/Collections/' was aborted.
+[2016.10.19-07.19.08:937][901]LogDirectoryWatcher: A directory notification for 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' was aborted.
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module StatsViewer (227)
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module FoliageEdit (226)
+[2016.10.19-07.19.08:937][901]LogModuleManager: Shutting down and abandoning module LandscapeEditor (225)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (224)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module ActorPickerMode (223)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module GeometryMode (222)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module TextureAlignMode (221)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module BspMode (220)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module HardwareSurvey (219)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (218)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module SequenceRecorder (217)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AutomationWorker (216)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (215)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module PlacementMode (214)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (213)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (212)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (211)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (210)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (209)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module Media (208)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (207)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (206)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module CharacterAI (205)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module SmartSnapping (204)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module SessionServices (203)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module ViewportSnapping (202)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module ViewportInteraction (201)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module LogVisualizer (200)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (199)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module IntroTutorials (198)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (197)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (196)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (195)
+[2016.10.19-07.19.08:938][901]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (194)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (193)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (192)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (191)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module NiagaraEditor (190)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module MergeActors (189)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module SizeMap (188)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module TreeMap (187)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module ReferenceViewer (186)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module LocalizationService (185)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (184)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module HardwareTargeting (183)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (182)
+[2016.10.19-07.19.09:788][901]LogModuleManager: Shutting down and abandoning module UndoHistory (181)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module UserFeedback (180)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module XmlParser (179)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module Blutility (178)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (177)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (176)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module InputBindingEditor (175)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (174)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module SettingsEditor (173)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module ProjectLauncher (172)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module SessionFrontend (171)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module ProfilerClient (170)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (169)
+[2016.10.19-07.19.09:789][901]LogModuleManager: Shutting down and abandoning module DeviceManager (168)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module AutomationController (167)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module AutomationWindow (166)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module Layers (165)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (164)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module DetailCustomizations (163)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module PackagesDialog (162)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module AnimGraph (161)
+[2016.10.19-07.19.09:842][901]LogModuleManager: Shutting down and abandoning module Persona (160)
+[2016.10.19-07.19.09:843][901]LogModuleManager: Shutting down and abandoning module Kismet (159)
+[2016.10.19-07.19.09:848][901]LogModuleManager: Shutting down and abandoning module GraphEditor (158)
+[2016.10.19-07.19.09:848][901]LogModuleManager: Shutting down and abandoning module ClassViewer (157)
+[2016.10.19-07.19.09:849][901]LogModuleManager: Shutting down and abandoning module Toolbox (156)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module ModuleUI (155)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module MovieSceneTools (154)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module OutputLog (153)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module GammaUI (152)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module Documentation (151)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module Niagara (150)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (149)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module AnalyticsET (148)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module PortalServices (147)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module PortalRpc (146)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module MessagingRpc (145)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module GameplayDebugger (144)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module AITestSuite (143)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module AIModule (142)
+[2016.10.19-07.19.09:850][901]LogModuleManager: Shutting down and abandoning module ProfilerService (141)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module TaskGraph (140)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SlateRemote (139)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SteamVRController (138)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SteamVR (137)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (136)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (135)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module OculusLibrary (134)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module OculusInput (133)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (132)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module CableComponent (131)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (130)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (128)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module HTML5Networking (127)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (126)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module GeometryCache (125)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module AlembicLibrary (124)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module AlembicImporter (123)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SuperSearch (122)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (121)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (120)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module PluginBrowser (119)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (118)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module EpicSurvey (117)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module DesktopPlatform (116)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (115)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module UObjectPlugin (114)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (113)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (112)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module SourceControl (111)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module GitSourceControl (110)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (109)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (108)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (107)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module MeshPaint (106)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (105)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (104)
+[2016.10.19-07.19.10:077][901]LogModuleManager: Shutting down and abandoning module HotReload (103)
+[2016.10.19-07.19.10:078][901]LogModuleManager: Shutting down and abandoning module MainFrame (102)
+[2016.10.19-07.19.10:078][901]LogModuleManager: Shutting down and abandoning module LevelEditor (101)
+[2016.10.19-07.19.10:079][901]LogModuleManager: Shutting down and abandoning module ContentBrowser (100)
+[2016.10.19-07.19.10:080][901]LogModuleManager: Shutting down and abandoning module Paper2DEditor (99)
+[2016.10.19-07.19.10:080][901]LogModuleManager: Shutting down and abandoning module UdpMessaging (98)
+[2016.10.19-07.19.10:181][901]LogModuleManager: Shutting down and abandoning module TcpMessaging (97)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module GameAnalyticsEditor (96)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module GameAnalytics (95)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.10.19-07.19.10:281][901]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.10.19-07.19.10:282][901]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.10.19-07.19.10:283][901]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.10.19-07.19.10:290][901]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.10.19-07.19.10:290][901]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.10.19-07.19.10:292][901]LogDirectoryWatcher: A directory notification for '../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' was aborted.
+[2016.10.19-07.19.10:293][901]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.10.19-07.19.10:300][901]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.10.19-07.19.10:543][901]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.10.19-07.19.10:543][901]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.10.19-07.19.10:543][901]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.10.19-07.19.10:543][901]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.10.19-07.19.10:615][901]LogDerivedDataCache: Shutdown
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.10.19-07.19.10:615][901]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.10.19-07.19.10:616][901]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.10.19-07.19.10:617][901]LogOnline:Display: Unloading online subsystem: NULL
+[2016.10.19-07.19.10:617][901]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.10.19-07.19.10:617][901]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.10.19-07.19.10:617][901]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB3DE07F0-40EE-25C5-436A-BD9FB00658CC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.1-3142249%2B%2B%2BUE4%2BRelease-4.13&UserID=7f0037404cd31216d24bc1b9f59da23d%7C1c185643a1274181937581d4f85ec675%7C852ce86c-8341-4b04-966e-87160f0cb87d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.10.19-07.19.10:637][901]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.10.19-07.19.10:637][901]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.10.19-07.19.10:637][901]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.10.19-07.19.10:637][901]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.10.19-07.19.10:637][901]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.10.19-07.19.10:653][901]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.10.19-07.19.10:656][901]LogExit: Exiting.
+[2016.10.19-07.19.10:673][901]Log file closed, 10/19/16 00:19:10

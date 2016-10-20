@@ -1,9 +1,9 @@
-﻿Log file open, 10/13/16 22:09:34
+﻿Log file open, 10/19/16 23:03:54
 LogInit:Display: Running engine for game: Cyber_Pirates_001
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1885552340) SRandInit(1885552341).
-LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.175297
+LogInit:Display: RandInit(-849914100) SRandInit(-849914100).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.167229
 LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
 LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
 LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
@@ -36,7 +36,7 @@ LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)
 LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
 LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
 LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
-LogPluginManager: Loaded Plugin Substance, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/Substance/Substance.uplugin
+LogPluginManager: Loaded Plugin GameAnalytics, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Marketplace/GameAnalytics/GameAnalytics.uplugin
 LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
 LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
 LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
@@ -134,131 +134,172 @@ LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.10.14-05.09.35:062][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.14-05.09.35:062][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.10.14-05.09.35:095][  0]LogInit: Computer: PLAIDSPC
-[2016.10.14-05.09.35:095][  0]LogInit: User: Plaid
-[2016.10.14-05.09.35:095][  0]LogInit: CPU Page size=65536, Cores=6
-[2016.10.14-05.09.35:095][  0]LogInit: High frequency timer resolution =3.320242 MHz
-[2016.10.14-05.09.35:095][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2016.10.14-05.09.35:095][  0]LogMemory: Platform Memory Stats for Windows
-[2016.10.14-05.09.35:095][  0]LogMemory: Process Physical Memory: 256.96 MB used, 256.96 MB peak
-[2016.10.14-05.09.35:095][  0]LogMemory: Process Virtual Memory: 260.50 MB used, 260.50 MB peak
-[2016.10.14-05.09.35:095][  0]LogMemory: Physical Memory: 3653.63 MB used, 16322.88 MB total
-[2016.10.14-05.09.35:095][  0]LogMemory: Virtual Memory: 626.47 MB used, 134217728.00 MB total
-[2016.10.14-05.09.35:507][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2016.10.14-05.09.42:029][  0]LogD3D11RHI: D3D11 adapters:
-[2016.10.14-05.09.42:059][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2016.10.14-05.09.42:059][  0]LogD3D11RHI:       8144/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2016.10.14-05.09.42:061][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.10.14-05.09.42:061][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2016.10.14-05.09.42:061][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.10.14-05.09.42:067][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.10.14-05.09.42:067][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2016.10.14-05.09.42:067][  0]LogWindows: EnumDisplayDevices:
-[2016.10.14-05.09.42:067][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2016.10.14-05.09.42:067][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2016.10.14-05.09.42:068][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2016.10.14-05.09.42:068][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2016.10.14-05.09.42:068][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2016.10.14-05.09.42:068][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2016.10.14-05.09.42:068][  0]LogD3D11RHI:   Driver Version: 373.06 (internal:21.21.13.7306, unified:373.06)
-[2016.10.14-05.09.42:068][  0]LogD3D11RHI:      Driver Date: 10-1-2016
-[2016.10.14-05.09.42:068][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.10.14-05.09.42:085][  0]LogD3D11RHI: Async texture creation enabled
-[2016.10.14-05.09.42:097][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2016.10.14-05.09.42:098][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Intermediate/Shaders/WorkingDirectory/2672/).
-[2016.10.14-05.09.42:098][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Plaid/AppData/Local/Temp/UnrealShaderWorkingDir/59D070CB47761CFF1B551CB902A4142B/'.
-[2016.10.14-05.09.42:098][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.10.14-05.09.47:127][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.10.14-05.09.47:136][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.10.14-05.09.47:145][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.10.14-05.09.47:155][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.10.14-05.09.47:167][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.10.14-05.09.47:183][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.10.14-05.09.47:191][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.10.14-05.09.47:199][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.10.14-05.09.47:207][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.10.14-05.09.47:214][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.10.14-05.09.47:222][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.10.14-05.09.47:237][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.10.14-05.09.47:237][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.10.14-05.09.47:238][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.10.14-05.09.47:336][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.10.14-05.09.47:342][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.10.14-05.09.47:349][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2016.10.14-05.09.47:355][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.10.14-05.09.47:361][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.10.14-05.09.47:375][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.10.14-05.09.47:375][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.10.14-05.09.48:081][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.10.14-05.09.48:380][  0]LogDerivedDataCache: Loaded boot cache 0.30s 62MB C:/Users/Plaid/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.14-05.09.48:380][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Plaid/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
-[2016.10.14-05.09.48:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.10.14-05.09.48:381][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.10.14-05.09.48:381][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.10.14-05.09.48:381][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.10.14-05.09.48:405][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.10.14-05.09.48:421][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Plaid/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.10.14-05.09.58:428][  0]LogInit: Selected Device Profile: [Windows]
-[2016.10.14-05.09.58:432][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.10.14-05.09.58:519][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.10.14-05.09.58:519][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.10.14-05.09.58:519][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.10.14-05.09.58:740][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.10.14-05.09.59:575][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cyber_pirates_001, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 989256561
-[2016.10.14-05.09.59:629][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
-[2016.10.14-05.09.59:674][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.042534 seconds
-[2016.10.14-05.09.59:678][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
-[2016.10.14-05.09.59:678][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
-[2016.10.14-05.09.59:678][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.10.14-05.09.59:683][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.10.14-05.10.00:243][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.14-05.10.00:243][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.10.14-05.10.07:843][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2016.10.14-05.10.07:861][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2016.10.14-05.10.07:883][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.10.14-05.10.08:351][  0]SourceControl: Info Source control is disabled
-[2016.10.14-05.10.08:354][  0]SourceControl: Info Source control is disabled
-[2016.10.14-05.10.08:366][  0]SourceControl: Info Source control is disabled
-[2016.10.14-05.10.08:377][  0]SourceControl: Info Source control is disabled
-[2016.10.14-05.10.08:865][  0]LogEngine: Initializing Engine...
-[2016.10.14-05.10.08:865][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2016.10.14-05.10.08:995][  0]LogAIModule: Creating AISystem for world Untitled
-[2016.10.14-05.10.09:030][  0]LogInit: XAudio2 using 'Speakers (Sound Blaster Z)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2016.10.14-05.10.09:046][  0]LogInit: FAudioDevice initialized.
-[2016.10.14-05.10.09:077][  0]LogDerivedDataCache: Saved boot cache 0.03s 62MB C:/Users/Plaid/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
-[2016.10.14-05.10.09:082][  0]LogInit: Texture streaming: Enabled
-[2016.10.14-05.10.09:146][  0]LogInit: Transaction tracking system initialized
-[2016.10.14-05.10.09:163][  0]BlueprintLog: New page: Editor Load
-[2016.10.14-05.10.09:236][  0]LocalizationService: Info Localization service is disabled
-[2016.10.14-05.10.09:337][  0]LogConsoleResponse:Display: 
-[2016.10.14-05.10.09:580][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2016.10.14-05.10.09:580][  0]LogCook:Display: Mobile HDR setting 1
-[2016.10.14-05.10.09:869][  0]LogFileCache: Scanning file cache for directory 'G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' took 0.02s
-[2016.10.14-05.10.09:869][  0]SourceControl: Info Source control is disabled
-[2016.10.14-05.10.09:869][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.10.14-05.10.09:870][  0]LightingResults: New page: Lighting Build
-[2016.10.14-05.10.09:872][  0]MapCheck: New page: Map Check
-[2016.10.14-05.10.09:872][  0]LightingResults: New page: Lighting Build
-[2016.10.14-05.10.10:143][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.10.14-05.10.10:164][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.10.14-05.10.10:169][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.10.14-05.10.10:244][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.676ms to complete.
-[2016.10.14-05.10.10:244][  0]LogFileHelpers: Loading map 'Template_Default' took 0.374
-[2016.10.14-05.10.10:440][  0]LogCollectionManager: Loaded 0 collections in 0.001222 seconds
-[2016.10.14-05.10.10:492][  0]LogFileCache: Scanning file cache for directory 'G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' took 0.01s
-[2016.10.14-05.10.10:492][  0]LogFileCache: Scanning file cache for directory 'G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/Plaid/Collections/' took 0.01s
-[2016.10.14-05.10.10:492][  0]LogFileCache: Scanning file cache for directory 'G:/Ai/Adv Game Prototyping/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' took 0.01s
-[2016.10.14-05.10.10:492][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
-[2016.10.14-05.10.10:501][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2156 classes and 421 folders.
-[2016.10.14-05.10.10:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.10.14-05.10.10:504][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.10.14-05.10.10:505][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2016.10.14-05.10.10:508][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2016.10.14-05.10.11:122][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2016.10.14-05.10.11:126][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.10.14-05.10.11:141][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.10.14-05.10.11:249][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2016.10.14-05.10.11:249][  0]LogLoad: (Engine Initialization) Total time: 41.58 seconds
-[2016.10.14-05.10.11:249][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2016.10.20-06.03.56:296][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.20-06.03.56:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.10.20-06.03.56:686][  0]LogInit: Computer: TRAVELER
+[2016.10.20-06.03.56:686][  0]LogInit: User: a1cla
+[2016.10.20-06.03.56:686][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.10.20-06.03.56:686][  0]LogInit: High frequency timer resolution =3.420547 MHz
+[2016.10.20-06.03.56:687][  0]LogMemory: Memory total: Physical=11.7GB (12GB approx)
+[2016.10.20-06.03.56:687][  0]LogMemory: Platform Memory Stats for Windows
+[2016.10.20-06.03.56:687][  0]LogMemory: Process Physical Memory: 258.55 MB used, 258.55 MB peak
+[2016.10.20-06.03.56:687][  0]LogMemory: Process Virtual Memory: 260.54 MB used, 260.54 MB peak
+[2016.10.20-06.03.56:687][  0]LogMemory: Physical Memory: 3711.38 MB used, 11979.79 MB total
+[2016.10.20-06.03.56:687][  0]LogMemory: Virtual Memory: 798.62 MB used, 134217728.00 MB total
+[2016.10.20-06.04.02:264][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.10.20-06.04.35:860][  0]LogD3D11RHI: D3D11 adapters:
+[2016.10.20-06.04.35:885][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
+[2016.10.20-06.04.35:885][  0]LogD3D11RHI:       2029/0/5989 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2016.10.20-06.04.35:893][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.10.20-06.04.35:893][  0]LogD3D11RHI:       224/0/1568 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2016.10.20-06.04.35:897][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.10.20-06.04.35:897][  0]LogD3D11RHI:       0/0/5989 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.10.20-06.04.35:897][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.10.20-06.04.35:904][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.10.20-06.04.35:904][  0]LogD3D11RHI:     GPU DeviceId: 0x6819 (for the marketing name, search the web for "GPU Device Id")
+[2016.10.20-06.04.35:904][  0]LogWindows: EnumDisplayDevices:
+[2016.10.20-06.04.35:904][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:1 D:1)
+[2016.10.20-06.04.35:905][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:0 D:1)
+[2016.10.20-06.04.35:906][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.20-06.04.35:907][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.20-06.04.35:908][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.20-06.04.35:909][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2016.10.20-06.04.35:910][  0]LogWindows:    6. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.20-06.04.35:910][  0]LogWindows:    7. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.20-06.04.35:911][  0]LogWindows:    8. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2016.10.20-06.04.35:911][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2016.10.20-06.04.35:911][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
+[2016.10.20-06.04.35:911][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:20.19.0.32837, unified:20.19.0.32837)
+[2016.10.20-06.04.35:911][  0]LogD3D11RHI:      Driver Date: 7-21-2016
+[2016.10.20-06.04.35:911][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.10.20-06.04.35:926][  0]LogD3D11RHI: Async texture creation enabled
+[2016.10.20-06.04.35:966][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.10.20-06.04.35:968][  0]LogShaderCompilers: Guid format shader working directory is -69 characters bigger than the processId version (../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Intermediate/Shaders/WorkingDirectory/2384/).
+[2016.10.20-06.04.35:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/a1cla/AppData/Local/Temp/UnrealShaderWorkingDir/961D546F4887E0F64BE907B4DF80E78A/'.
+[2016.10.20-06.04.35:999][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.10.20-06.05.01:038][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.10.20-06.05.01:047][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.10.20-06.05.01:056][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.10.20-06.05.01:066][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.10.20-06.05.01:075][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.10.20-06.05.01:238][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.10.20-06.05.01:255][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.10.20-06.05.01:263][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.10.20-06.05.01:269][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.10.20-06.05.01:276][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.10.20-06.05.01:282][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.10.20-06.05.01:295][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.10.20-06.05.01:295][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.10.20-06.05.01:296][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.10.20-06.05.01:421][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.10.20-06.05.01:436][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.10.20-06.05.01:445][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.10.20-06.05.01:454][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.10.20-06.05.01:463][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.10.20-06.05.01:525][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.10.20-06.05.01:525][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.10.20-06.05.03:031][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.10.20-06.06.33:404][  0]LogDerivedDataCache: Loaded boot cache 90.37s 62MB C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.20-06.06.33:404][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.10.20-06.06.33:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.10.20-06.06.33:405][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.10.20-06.06.33:405][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.10.20-06.06.33:405][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.10.20-06.06.34:260][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.10.20-06.06.34:273][  0]LogDerivedDataCache: Using Local data cache path C:/Users/a1cla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.10.20-06.06.39:634][  0]LogInit: Selected Device Profile: [Windows]
+[2016.10.20-06.06.39:916][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.10.20-06.06.40:346][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.10.20-06.06.40:346][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.10.20-06.06.40:346][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.10.20-06.06.45:557][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.10.20-06.07.01:987][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: cyber_pirates_001, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 989256561
+[2016.10.20-06.07.02:672][  0]LogAssetRegistry: FAssetRegistry took 0.0222 seconds to start up
+[2016.10.20-06.07.02:715][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.036913 seconds
+[2016.10.20-06.07.02:719][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.10.20-06.07.02:719][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.10.20-06.07.02:719][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.10.20-06.07.02:729][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.10.20-06.07.09:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.20-06.07.09:467][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.10.20-06.08.13:035][  0]LogGameAnalyticsAnalytics:Display: FAnalyticsGameAnalytics Constructor
+[2016.10.20-06.08.13:231][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.10.20-06.08.13:346][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.10.20-06.08.16:518][  0]SourceControl: Info Source control is disabled
+[2016.10.20-06.08.17:778][  0]SourceControl: Info Source control is disabled
+[2016.10.20-06.08.18:045][  0]SourceControl: Info Source control is disabled
+[2016.10.20-06.08.18:090][  0]SourceControl: Info Source control is disabled
+[2016.10.20-06.08.21:727][  0]LogEngine: Initializing Engine...
+[2016.10.20-06.08.21:783][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.10.20-06.08.23:811][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.10.20-06.08.23:908][  0]LogInit: XAudio2 using '1 - S24B300 (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.20-06.08.24:118][  0]LogInit: FAudioDevice initialized.
+[2016.10.20-06.08.24:155][  0]LogDerivedDataCache: Saved boot cache 0.04s 62MB C:/Users/a1cla/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.10.20-06.08.24:163][  0]LogInit: Texture streaming: Enabled
+[2016.10.20-06.08.24:350][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.10.20-06.08.28:330][  0]LogInit: Transaction tracking system initialized
+[2016.10.20-06.08.28:380][  0]BlueprintLog: New page: Editor Load
+[2016.10.20-06.08.28:621][  0]LocalizationService: Info Localization service is disabled
+[2016.10.20-06.08.32:783][  0]LogConsoleResponse:Display: 
+[2016.10.20-06.08.42:886][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.10.20-06.08.42:886][  0]LogCook:Display: Mobile HDR setting 1
+[2016.10.20-06.08.44:672][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/' took 0.01s
+[2016.10.20-06.08.50:653][  0]SourceControl: Info Source control is disabled
+[2016.10.20-06.08.50:653][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.10.20-06.08.50:708][  0]LightingResults: New page: Lighting Build
+[2016.10.20-06.08.50:740][  0]MapCheck: New page: Map Check
+[2016.10.20-06.08.50:740][  0]LightingResults: New page: Lighting Build
+[2016.10.20-06.08.53:980][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.10.20-06.08.54:245][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.20-06.08.54:282][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.20-06.08.54:353][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 71.14ms to complete.
+[2016.10.20-06.08.54:353][  0]LogFileHelpers: Loading map 'Template_Default' took 3.701
+[2016.10.20-06.08.55:687][  0]LogCollectionManager: Loaded 0 collections in 0.002929 seconds
+[2016.10.20-06.08.55:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Saved/Collections/' took 0.01s
+[2016.10.20-06.08.55:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Developers/a1cla/Collections/' took 0.01s
+[2016.10.20-06.08.55:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/a1cla/Desktop/KrakenFiles/Cyber_Pirates/Design/Level_Design/Cyber_Pirates/Cyber_Pirates_001/Content/Collections/' took 0.01s
+[2016.10.20-06.08.55:731][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2016.10.20-06.08.55:739][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2142 classes and 418 folders.
+[2016.10.20-06.08.55:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.10.20-06.08.55:803][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.10.20-06.08.55:804][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0011 seconds. Added 12 classes and 0 folders.
+[2016.10.20-06.08.55:821][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2016.10.20-06.09.01:081][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2016.10.20-06.09.01:090][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 1 classes and 3 folders.
+[2016.10.20-06.09.01:098][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.20-06.09.01:111][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.10.20-06.09.01:744][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.10.20-06.09.01:744][  0]LogLoad: (Engine Initialization) Total time: 327.39 seconds
+[2016.10.20-06.09.01:744][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 1.23 seconds
+[2016.10.20-06.09.01:744][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.10.20-06.09.01:744][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.10.20-06.09.01:778][  0]LogOcInput: OculusInput pre-init called
+[2016.10.20-06.09.01:802][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.10.20-06.09.02:714][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2016.10.20-06.09.02:863][  1]LogAssetRegistry: Asset discovery search completed in 120.2127 seconds
+[2016.10.20-06.09.02:863][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.10.20-06.09.02:863][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2016.10.20-06.12.43:889][419]Cmd: MODE GRID=1
+[2016.10.20-06.12.49:482][ 43]LightingResults: New page: Lighting Build
+[2016.10.20-06.12.49:483][ 43]LoadErrors: New page: Loading map: PersistentLevel_Nav.umap
+[2016.10.20-06.12.49:485][ 43]MapCheck: New page: Map Check
+[2016.10.20-06.12.49:485][ 43]LightingResults: New page: Lighting Build
+[2016.10.20-06.12.49:571][ 43]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.20-06.12.50:859][ 43]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.10.20-06.12.50:879][ 43]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.10.20-06.12.50:962][ 43]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 82.472ms to complete.
+[2016.10.20-06.12.50:962][ 43]LogFileHelpers: Loading map 'PersistentLevel_Nav' took 1.494
+[2016.10.20-06.13.07:492][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.10.20-06.13.07:544][945]PIE: New page: PIE session: PersistentLevel_Nav (Oct 19, 2016, 3:13:07 PM)
+[2016.10.20-06.13.07:544][945]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_PersistentLevel_Nav
+[2016.10.20-06.13.07:545][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001492s)
+[2016.10.20-06.13.07:546][945]LogAIModule: Creating AISystem for world PersistentLevel_Nav
+[2016.10.20-06.13.07:546][945]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2016.10.20-06.13.07:546][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/PersistentLevel_Nav.PersistentLevel_Nav to /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav (0.002357s)
+[2016.10.20-06.13.07:568][945]LogInit: XAudio2 using '1 - S24B300 (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.10.20-06.13.07:576][945]LogInit: FAudioDevice initialized.
+[2016.10.20-06.13.07:634][945]LogWorld: PIE: Copying PIE streaming level from /Game/Level/Cyber_Pirates.Cyber_Pirates to /Game/Level/UEDPIE_0_Cyber_Pirates.Cyber_Pirates. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.20-06.13.07:682][945]LogWorld: PIE: Copying PIE streaming level from /Game/Level/BuildingsLevel.BuildingsLevel to /Game/Level/UEDPIE_0_BuildingsLevel.BuildingsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.20-06.13.07:683][945]LogWorld: PIE: Copying PIE streaming level from /Game/Level/AudioLevel.AudioLevel to /Game/Level/UEDPIE_0_AudioLevel.AudioLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.20-06.13.07:684][945]LogWorld: PIE: Copying PIE streaming level from /Game/Level/VisualEffectsLevel.VisualEffectsLevel to /Game/Level/UEDPIE_0_VisualEffectsLevel.VisualEffectsLevel. OwningWorld: /Game/Level/UEDPIE_0_PersistentLevel_Nav.PersistentLevel_Nav
+[2016.10.20-06.13.07:685][945]LogWorld: PIE: Copying PIE streaming level f
