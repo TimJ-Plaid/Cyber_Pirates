@@ -1,0 +1,9 @@
+Camera Location
+x = -4955
+Y = 4369
+Z = 1983
+
+Camra Rotation
+X = 0
+Y = -30
+Z = -40
